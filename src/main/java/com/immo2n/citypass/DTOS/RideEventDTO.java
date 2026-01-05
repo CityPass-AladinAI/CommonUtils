@@ -6,6 +6,7 @@ import lombok.Data;
 @Data
 public class RideEventDTO {
     private String rideId;
+    private String driverId;
     private double pickupLat;
     private double pickupLng;
     private Double destinationLat;
