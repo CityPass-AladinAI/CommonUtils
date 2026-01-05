@@ -6,7 +6,8 @@ plugins {
 }
 
 group = 'com.immo2n.citypass.commonutils'
-version = '1.4.0'
+version = '1.4.2'
+
 
 java {
     toolchain {
