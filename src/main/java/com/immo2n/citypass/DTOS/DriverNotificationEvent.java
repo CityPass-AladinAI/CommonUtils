@@ -8,7 +8,7 @@ import java.time.Instant;
 
 @Data
 @AllArgsConstructor
-@NoArgsConstructor
+@NoArgsConstructor // Default constructor for deserialization
 public class DriverNotificationEvent {
     private String driverId;
     private String rideId;
