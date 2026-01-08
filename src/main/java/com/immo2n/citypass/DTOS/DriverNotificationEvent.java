@@ -12,6 +12,10 @@ public class DriverNotificationEvent {
     private String rideId;
     private double pickupLat;
     private double pickupLng;
+    private double destinationLat;
+    private double destinationLng;
+    private String preferences;
+    private long timestamp;
+    private String vehicleType;
     private Instant offerExpiryTime;
 }
-

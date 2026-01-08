@@ -13,7 +13,8 @@ public class RideEventDTO {
     private String preferences;
     private long timestamp;
 
-    private VehicleType vehicleType; // Corrected naming
+    private VehicleType vehicleType;
+    private Instant offerExpiryTime;
 
     public enum VehicleType {   // PascalCase
         BIKE,
