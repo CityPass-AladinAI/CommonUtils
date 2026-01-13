@@ -1,6 +1,5 @@
 package com.immo2n.citypass.DTOS;
 
-
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -12,8 +11,9 @@ import lombok.Builder;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class RideRejectedEvent {
+public class RideStartedEvent {
     private String rideId;
     private String driverId;
-    private String reason;
+    private String riderId;
+    private long startedAt;
 }

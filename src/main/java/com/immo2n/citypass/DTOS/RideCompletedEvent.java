@@ -12,8 +12,11 @@ import lombok.Builder;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class RideRejectedEvent {
+public class RideCompletedEvent {
     private String rideId;
     private String driverId;
-    private String reason;
+    private String riderId;
+    private double finalFare;
+    private String vehicleType;
+    private long completedAt;
 }
