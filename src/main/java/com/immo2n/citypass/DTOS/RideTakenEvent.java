@@ -13,6 +13,6 @@ import lombok.Builder;
 @AllArgsConstructor
 @Builder
 public class RideTakenEvent {
-    private String rideId;
-    private String driverId;
+    private Long rideId;
+    private Long driverId;
 }

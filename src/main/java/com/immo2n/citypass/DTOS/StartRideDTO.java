@@ -13,8 +13,6 @@ import lombok.Builder;
 @Builder
 public class StartRideDTO {
 
-    /**
-     * Driver who is starting the ride
-     */
-    private String driverId;
+
+    private Long driverId;
 }

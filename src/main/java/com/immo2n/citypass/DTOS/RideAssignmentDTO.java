@@ -11,10 +11,10 @@ import lombok.NoArgsConstructor;
 @Builder
 public class RideAssignmentDTO {
 
-    private String rideId;
-    private String driverId;
+    private Long rideId;
+    private Long driverId;
     private VehicleType vehicleType;
-    private long timestamp;
+    private Long  timestamp;
 
     public enum VehicleType {
         BIKE,

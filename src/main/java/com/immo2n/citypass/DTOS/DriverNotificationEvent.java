@@ -14,12 +14,12 @@ import java.time.Instant;
 public class DriverNotificationEvent {
     private String driverId;
     private String rideId;
-    private double pickupLat;
-    private double pickupLng;
-    private Double destinationLat; // changed to object
-    private Double destinationLng; // changed to object
+    private Double pickupLat;       // changed to Double
+    private Double pickupLng;       // changed to Double
+    private Double destinationLat;  // already Double
+    private Double destinationLng;  // already Double
     private String preferences;
-    private long timestamp;
+    private Long timestamp;
     private String vehicleType;
     private Instant offerExpiryTime;
 }

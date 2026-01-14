@@ -10,6 +10,6 @@ import lombok.Builder;
 @NoArgsConstructor
 @Builder
 public class PassengerRideAssignedEvent {
-    private String rideId;
-    private String driverId;
+    private Long  rideId;
+    private Long  driverId;
 }

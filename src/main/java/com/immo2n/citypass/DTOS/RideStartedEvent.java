@@ -12,8 +12,20 @@ import lombok.Builder;
 @AllArgsConstructor
 @Builder
 public class RideStartedEvent {
-    private String rideId;
-    private String driverId;
-    private String riderId;
-    private long startedAt;
+    private Long rideId;
+    private Long driverId;
+
+    private Long startedAt;
+
+    private VehicleType vehicleType;
+
+
+    public enum VehicleType {
+        BIKE,
+        CNG,
+        CAR,
+        BUS,
+        AMBULANCE
+    }
 }
+

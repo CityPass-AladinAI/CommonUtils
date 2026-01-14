@@ -15,6 +15,6 @@ import lombok.Builder;
 
 
 public class EndRideDTO {
-    private String driverId;
+    private  Long driverId;
     private double finalFare;
 }

@@ -9,11 +9,13 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class DriverAcceptanceDTO {
+    public class DriverAcceptanceDTO {
+        private Long driverId;
+        private  Long rideId;
+//        private String driverId;
+      private VehicleType vehicleType;
 
-    private String rideId;
-    private String driverId;
-    private VehicleType vehicleType;
+
 
     public enum VehicleType {
         BIKE,
