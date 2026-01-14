@@ -10,9 +10,9 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Builder
     public class DriverAcceptanceDTO {
-        private Long driverId;
-        private  Long rideId;
-//        private String driverId;
+    private String driverId;
+    private String rideId;
+    private  String riderId;
       private VehicleType vehicleType;
 
 

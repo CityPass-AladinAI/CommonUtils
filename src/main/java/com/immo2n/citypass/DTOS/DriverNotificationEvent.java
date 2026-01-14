@@ -14,6 +14,7 @@ import java.time.Instant;
 public class DriverNotificationEvent {
     private String driverId;
     private String rideId;
+    private  String riderId;
     private Double pickupLat;       // changed to Double
     private Double pickupLng;       // changed to Double
     private Double destinationLat;  // already Double

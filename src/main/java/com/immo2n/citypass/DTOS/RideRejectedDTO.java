@@ -13,7 +13,9 @@ import lombok.Builder;
 @Builder
 public class RideRejectedDTO {
 
-    private Long driverId;
+    private String driverId;
+    private String rideId;
+    private String riderId;
 
     private String reason;
 }
