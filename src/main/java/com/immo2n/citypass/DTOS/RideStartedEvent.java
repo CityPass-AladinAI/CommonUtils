@@ -14,6 +14,7 @@ import lombok.Builder;
 public class RideStartedEvent {
     private Long rideId;
     private Long driverId;
+    private Long riderId;
 
     private Long startedAt;
 
