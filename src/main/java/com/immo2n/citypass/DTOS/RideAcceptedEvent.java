@@ -14,9 +14,11 @@ import lombok.Builder;
 
 
 public class RideAcceptedEvent {
-    private Long rideId;
-    private Long driverId;
-    private Long riderId;
+    //private Long rideId;
+   // private Long driverId;
+    private String rideId;
+    private String driverId;
+    private String riderId;
 
 
 

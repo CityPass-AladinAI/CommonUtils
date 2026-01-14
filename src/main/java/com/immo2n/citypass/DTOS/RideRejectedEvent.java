@@ -13,8 +13,11 @@ import lombok.Builder;
 @AllArgsConstructor
 @Builder
 public class RideRejectedEvent {
-    private Long rideId;
-    private Long driverId;
+    //private Long rideId;
+    //private Long driverId;
     private String reason;
-    private Long riderId;
+    private String rideId;
+    private String driverId;
+    private String riderId;
+
 }
