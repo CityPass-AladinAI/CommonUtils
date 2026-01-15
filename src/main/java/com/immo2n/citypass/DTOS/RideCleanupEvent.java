@@ -11,6 +11,8 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Builder
 public class RideCleanupEvent {
-    private Long rideId;
+    private String rideId;
+    private String driverId;
+    private String riderId;
     private String reason;
 }

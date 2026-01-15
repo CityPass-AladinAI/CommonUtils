@@ -21,6 +21,17 @@ public class DriverNotificationEvent {
     private Double destinationLng;  // already Double
     private String preferences;
     private Long timestamp;
-    private String vehicleType;
+
     private Instant offerExpiryTime;
+
+    private VehicleType vehicleType;
+
+
+    public enum VehicleType {
+        BIKE,
+        CNG,
+        CAR,
+        BUS,
+        AMBULANCE
+    }
 }

@@ -6,7 +6,7 @@ plugins {
 }
 
 group = 'com.immo2n.citypass.commonutils'
-version = '2.0.0'
+version = '2.0.1'
 
 
 

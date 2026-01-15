@@ -57,6 +57,7 @@ public class RideEventDTO {
 
     private String rideId;
     private String driverId;
+   private String riderId;
 
     private Double pickupLat;
     private Double pickupLng;   // changed to Double
